@@ -1,0 +1,43 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+canvas {
+  display: block;
+}
+
+html {
+  overflow: hidden;
+  background: #fff8cd;
+  color: #000;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.credits {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+  font-family: monospace;
+  padding: 0.25em 1em;
+  font-size: 10px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.credits a {
+  pointer-events: auto;
+  color: inherit;
+}
+
+.credits:hover,
+.credits:focus {
+  opacity: 1;
+}
